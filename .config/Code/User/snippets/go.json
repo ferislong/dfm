@@ -1,0 +1,9 @@
+{
+	"Pass": {
+		"prefix": "pass",
+		"body": [
+			"// TODO(ferris) IMPLEMENT ME"
+			"panic(\"implement me\")"
+		]
+	}
+}

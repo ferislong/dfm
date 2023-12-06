@@ -1,0 +1,41 @@
+{
+    // *****************************************
+    // Setting of Visual Studio Code
+    // Author: ferrislong1 AT gmail DOT com
+    // *****************************************
+
+    // *****************************************
+    // Editor
+    "editor.fontFamily": "'SF Mono', 'LXGW WenKai Screen', monospace",
+    "editor.renderControlCharacters": true,
+    "editor.wordWrap": "on",
+    "editor.rulers": [
+        80, 110
+    ],
+    "editor.minimap.enabled": false,
+
+    // *****************************************
+    // Workbench
+    "workbench.colorTheme": "Night Owl",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.limit.enabled": true, 
+    "workbench.editor.limit.value": 8,
+    "workbench.startupEditor": "none",
+
+    // *****************************************
+    // Plugins
+    // glassit-vsc
+    "glassit.alpha": 215,
+
+    // *****************************************
+    // Misc
+    "window.restoreWindows": "none",
+    "explorer.confirmDelete": false,
+    // "http.proxy": "http://127.0.0.1:7890",
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "typescript.surveys.enabled": false,
+    "update.showReleaseNotes": false,
+    "files.autoSave": "onFocusChange",
+    "workbench.productIconTheme": "fluent-icons",
+}
