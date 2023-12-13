@@ -16,6 +16,7 @@
 
     // *****************************************
     // Workbench
+    "workbench.productIconTheme": "fluent-icons",
     "workbench.colorTheme": "Night Owl",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.limit.enabled": true, 
@@ -37,5 +38,5 @@
     "typescript.surveys.enabled": false,
     "update.showReleaseNotes": false,
     "files.autoSave": "onFocusChange",
-    "workbench.productIconTheme": "fluent-icons",
+    "cmake.showOptionsMovedNotification": false,
 }
