@@ -212,20 +212,13 @@ set $gn     #81c181
 set $rd     #bf9b76
 set $id     #f9f8ff
 set $ce     #ceecee
-set $sl     #7f7f7f
+# set $sl     #7f7f7f
+set $sl     #ffffff
 
-# set some nice colors      border  background  text    indicator
-client.focused              $ac     $ac         $tx     $id
-client.unfocused            $bg     $bg         $ia     $id
-client.focused_inactive     $bg     $bg         $ac     $id
-client.urgent               $ac     $ac         $tx     $id
-#border & indicator are ignored
-client.placeholder          $bg     $bg         $bg     $bg
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        i3bar_command i3bar --transparency
         position top
         strip_workspace_numbers yes
         status_command i3status -c ~/.config/i3/i3status.conf

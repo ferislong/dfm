@@ -6,7 +6,7 @@
 
     // *****************************************
     // Editor
-    "editor.fontFamily": "'SF Mono', 'LXGW WenKai Screen', monospace",
+    "editor.fontFamily": "'SF Mono', 'Menlo','LXGW WenKai Screen', monospace",
     "editor.renderControlCharacters": true,
     "editor.wordWrap": "on",
     "editor.rulers": [

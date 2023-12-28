@@ -13,7 +13,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-commentary'
-Plug 'fatih/vim-go'
+" Plug 'fatih/vim-go'
 
 " Vim theme
 Plug 'morhetz/gruvbox'
