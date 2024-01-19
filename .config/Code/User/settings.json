@@ -13,14 +13,10 @@
         80, 110
     ],
     "editor.minimap.enabled": false,
-
-    // *****************************************
-    // Workbench
-    "workbench.productIconTheme": "fluent-icons",
     "workbench.colorTheme": "Night Owl",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.limit.enabled": true, 
-    "workbench.editor.limit.value": 8,
+    "workbench.editor.limit.value": 12,
     "workbench.startupEditor": "none",
 
     // *****************************************
