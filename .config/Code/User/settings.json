@@ -6,14 +6,15 @@
 
     // *****************************************
     // Editor
-    "editor.fontFamily": "'SF Mono', 'Menlo','LXGW WenKai Screen', monospace",
+    "editor.fontFamily": "'Maple Mono', 'SF Mono', 'Menlo','LXGW WenKai Screen', monospace",
+    "editor.fontLigatures": true,
     "editor.renderControlCharacters": true,
     "editor.wordWrap": "on",
     "editor.rulers": [
         80, 110
     ],
     "editor.minimap.enabled": false,
-    "workbench.colorTheme": "Night Owl",
+    "workbench.colorTheme": "Maple Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.limit.enabled": true, 
     "workbench.editor.limit.value": 12,
@@ -30,9 +31,7 @@
     "explorer.confirmDelete": false,
     // "http.proxy": "http://127.0.0.1:7890",
     "telemetry.telemetryLevel": "off",
-    "terminal.integrated.enableMultiLinePasteWarning": false,
     "typescript.surveys.enabled": false,
     "update.showReleaseNotes": false,
     "files.autoSave": "onFocusChange",
-    "cmake.showOptionsMovedNotification": false,
 }
