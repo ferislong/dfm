@@ -3,17 +3,33 @@
     "position": "top", 
     "spacing": 2,
     "mode": "dock",
-    "modules-left": ["hyprland/submap", "hyprland/workspaces"],
+    "modules-left": ["custom/archlinux", "hyprland/submap", "hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["network", "pulseaudio", "memory", "cpu", "clock", "tray"],
+    "modules-right": ["network", "pulseaudio", "memory", "cpu", "clock", "tray", "custom/waterdrop"],
     "hyprland/workspaces": {
-        "format": "{name}",
+        "format": "{name} {icon}",
         "on-click": "activate",
         "on-scroll-up": "hyprctl dispatch workspace e+1",
-        "on-scroll-down": "hyprctl dispatch workspace e-1"
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "9": "",
+            "urgent": "",
+            "focused": "",
+            "default": ""
+        }
+    },
+    "custom/archlinux": {
+        "format": "󰣇",
+    },
+    "custom/waterdrop": {
+        "format": "  "
     },
     "hyprland/window": {
-        "format": "{}",
+        "format": " {}",
         "separate-outputs": true
     },
     "hyprland/submap": {
@@ -43,12 +59,12 @@
     },
     "network": {
         "interval": 1,
-        "format-wifi": "\uf6ff {ifname}: {ipaddr}/{cidr}",
+        "format-wifi": " {ifname}: {ipaddr}/{cidr}",
         "format-ethernet": "\uf6ff {ipaddr}/{cidr}",
         "format-linked": "\uf059 No IP ({ifname})",
         "format-disconnected": "\uf071 Disconnected",
         "tooltip-format": "{ifname} {ipaddr}/{cidr} via {gwaddr}",
-        "format-alt": "\uf1eb {essid} ({signalStrength}%)"
+        "format-alt": "\uf6ff {essid} ({signalStrength}%)"
     },
     "pulseaudio": {
         "scroll-step": 5,

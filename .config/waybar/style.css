@@ -57,6 +57,8 @@ window#waybar.hidden {
     border-bottom: 0.5px solid #ffffff;
 }
 
+#custom-archlinux,
+#custom-waterdrop,
 #clock,
 #cpu,
 #memory,
@@ -107,6 +109,16 @@ window#waybar.hidden {
 
 #tray {
     background-color: rgba(16, 20, 24, 0.5);
+}
+
+#custom-archlinux {
+    background: rgba(16, 20, 24, 0.5);
+    color: #ffffff;
+}
+
+#custom-waterdrop {
+    background: rgba(16, 20, 24, 0.5);
+    color: #ffffff;
 }
 
 #window {
