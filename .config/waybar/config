@@ -5,21 +5,26 @@
     "mode": "dock",
     "modules-left": ["custom/archlinux", "hyprland/submap", "hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["network", "pulseaudio", "memory", "cpu", "clock", "tray", "custom/waterdrop"],
+    "modules-right": ["battery", "network", "pulseaudio", "memory", "cpu", "clock", "tray", "custom/waterdrop"],
     "hyprland/workspaces": {
-        "format": "{name} {icon}",
+        "format": "{icon}",
         "on-click": "activate",
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1",
         "format-icons": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "9": "",
+            "1": "",  // Home
+            "2": "",  // Web Browser
+            "3": "",  // Terminal
+            "4": "",  // VSCode
+            "5": "",  // Golang
+            "6": "",  // Java
+            "7": "C",  // C/C++
+            "8": "",  // Rust
+            "9": "",  // Sublime
+            "10": "", // Notes
             "urgent": "",
             "focused": "",
-            "default": ""
+            "default": "?"
         }
     },
     "custom/archlinux": {
@@ -29,11 +34,12 @@
         "format": "  "
     },
     "hyprland/window": {
-        "format": " {}",
+        // "format": "{}",
+        "format": "{}",
         "separate-outputs": true
     },
     "hyprland/submap": {
-        "format": "✌️ {}",
+        "format": "{}",
         "max-length": 12,
         "tooltip": false
     },
@@ -65,6 +71,17 @@
         "format-disconnected": "\uf071 Disconnected",
         "tooltip-format": "{ifname} {ipaddr}/{cidr} via {gwaddr}",
         "format-alt": "\uf6ff {essid} ({signalStrength}%)"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-charging": "⚡ {capacity}%",
+        "format-icons": ["", "", "", "", ""]
     },
     "pulseaudio": {
         "scroll-step": 5,

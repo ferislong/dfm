@@ -59,6 +59,8 @@ window#waybar.hidden {
 
 #custom-archlinux,
 #custom-waterdrop,
+#submap,
+#battery,
 #clock,
 #cpu,
 #memory,
@@ -102,13 +104,18 @@ window#waybar.hidden {
     color: #000000;
 }
 
+#battery {
+    background-color: #64e887;
+    color: #000000;
+}
+
 #network {
     background-color: #87ddff;
     color: #000000;
 }
 
 #tray {
-    background-color: rgba(16, 20, 24, 0.5);
+    background-color: #ffffff;
 }
 
 #custom-archlinux {
@@ -124,6 +131,9 @@ window#waybar.hidden {
 #window {
     font-family: "Maple Mono", sans-serif;
     font-weight: 400;
+    /*
     background-color: #cbecff;
     color: #000000;
+    */
+    color: #ffffff;
 }
